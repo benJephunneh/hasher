@@ -1,0 +1,2 @@
+# hasher
+MATLAB hashing function
