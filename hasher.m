@@ -6,7 +6,7 @@ function hashed = hasher( toHash, varargin )
 %
 % Ex: hash = hasher('try this') % MD5 hash
 %
-% Ex: hash = hasher(imread('001.bmp'), 'SHA1')
+% Ex: hash = hasher(imread('001.bmp'), 'Algorithm', 'SHA1')
 %
 %     SIZE OF THE DIFFERENT HASHES:
 %           SHA1:  20 bytes = 20 hex codes =  40 char hash string
